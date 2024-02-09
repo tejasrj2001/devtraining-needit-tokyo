@@ -4,6 +4,7 @@
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Human Resource" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="Human Resources"/>
                 <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
                 <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
@@ -14,6 +15,7 @@
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr1" label="What needed" mandatory="true" max_length="40" name="u_choice_4" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resource 1" sequence="0" value="hr1"/>
+                <element inactive_on_update="false" label="Human Resources 2" sequence="0" value="Human Resources 2"/>
                 <element inactive_on_update="false" label="Human Resource 2" sequence="1" value="hr2"/>
                 <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities1"/>
                 <element inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities2"/>
